@@ -3,16 +3,21 @@
 === **The 1st Starfield entity push mod, SimplePush** ===========================================================================
 **/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////**
 
+
 **•  ChangeLog:**
 
-  - <date> : 
+2023.08.01:
+  - 1.0 NexusMods Release
     
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
  • Requirements:
-  - 
-  - 
+  - Starfield HotKeys
+  - SFSE
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 **• Features:**
 
@@ -20,12 +25,14 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 **• How to Use:**
 
 - Press *F3* to activate and deactivate
 (_Yes, I know everyone hates things bound to F-keys. This will hopefully ensure that people configure the key themselves. It's also my own keybind, so let me just have this one selfish thing. It's so easy to change, so please don't post "It's bad practice to set this to F-keys" as I fully understand this. List of Possible Keybinds_)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 **• INSTALLATION:**
 
@@ -39,6 +46,8 @@
   -7. Save your StarfieldHotkeys.ini file
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 **•  Acknowledgements:**
   
   - Inspired by the Fallout 4 mod, Get Out Of My Face
@@ -46,6 +55,7 @@
   - Shoutout to GrumpyGoose, SlinkyD, RowdyBeans, and The Scott for assisting in one way or another
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 **• Philosophy and Methodology**
 
@@ -96,6 +106,7 @@ Someone more talented than I please, please take anything you want from this and
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 **TWEAKING:**
 
 DO NOT ADJUST OR MOVE THE COMMANDS IN THE TEXT FILES. THE CONSOLE REQUIRES THEM EXACTLY AS I HAVE THEM TO FUNCTION. ONLY CHANGE THE FOLLOWING VARIABLE UNDER "PUSHTARGET.TXT":
@@ -105,11 +116,13 @@ Changing 2 to any negative value will allow them to get up instantaneously
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 **Limitations:**
 
 Currently, with the lack of development tools for Starfield, we're stuck either until the Creation Kit is released or xEdit or SFSE get updated with relevant script extensions. As such, actors currently play an animation upon being pushed before engaging ragdoll. The animation also prevents the force factor (currently set to 2) from actually meaning anything, except how long the NPC is going to lay on the ground. Setting it to 50 will result in same force but longer down time. I'm guessing the game is reading the NPC as being affected by the force (more force = more downtime) but the force itself is being blocked by the NPC animation. I'm still working on a way to strip the animation and stack other parameters, so hold tight for future updates.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 **Future Implementation Ideas:**
 
@@ -120,9 +133,12 @@ Currently, with the lack of development tools for Starfield, we're stuck either 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 **WARNINGS**
 
 **YOU MAY HAVE TO PRESS THE HOTKEY TWICE TO FIRE CORRECTLY. THIS IS DUE TO A LIMITATION WITHIN THE CONTEXT OF CONSOLE COMMANDS BUT I'M STILL EXPLORING OPTIONS**
+
+
 
 **!! F3 IS ABLE TO BE CHANGED TO ANYTHING YOU WANT SO PLEASE READ THE DAMN INSTRUCTIONS BEFORE POSTING !!**
 
